@@ -28,7 +28,7 @@ body* {
  color: #77ffc0;
 }
 
-.left-loginimg{
+.left-loginimg, .senha-loginimg{
    width: 35vw; 
 }
 .right-login{
@@ -101,6 +101,40 @@ body* {
    background: #00ff88;
    cursor: pointer;
    box-shadow: 0px 10px 40px -12px #00ff8052;
+}
+.btn-conta{
+    width: 70%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px; 
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #2b134b;
+    background: #00ff88;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00ff8052;  
+}
+.conta, .entrar{
+    color: #00ff88;
+    margin: 10px;
+}
+.btn-senha{
+    width: 80%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px; 
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #2b134b;
+    background: #00ff88;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00ff8052;   
 }
 @media only screen and (max-width: 950px){
     .card{
